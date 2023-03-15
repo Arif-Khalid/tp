@@ -9,7 +9,7 @@ public interface ErrorMessage {
     String INVALID_CURRENCY = "An invalid currency has been provided.";
     String INVALID_NUMERICAL_AMOUNT = "Please provide a float amount to update";
     String INVALID_CREATE_ACCOUNT_COMMAND = "create-account must be used with the following format: " +
-            "create-account <CURRENCY>";
+            "create-account CURRENCY";
     String MORE_THAN_ONE_CURRENCY_PROVIDED = "Please do not provide more than one currency.";
     String NO_SUCH_ACCOUNT = "You do not have an account for the currency.";
 
